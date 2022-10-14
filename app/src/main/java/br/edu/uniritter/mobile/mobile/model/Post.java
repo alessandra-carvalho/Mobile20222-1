@@ -1,9 +1,9 @@
-package br.edu.uniritter.mobile.mobile20222_1.model;
+package br.edu.uniritter.mobile.mobile.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import br.edu.uniritter.mobile.mobile20222_1.repository.UserRepository;
+import br.edu.uniritter.mobile.mobile.repository.UserRepository;
 
 public class Post implements Parcelable {
 

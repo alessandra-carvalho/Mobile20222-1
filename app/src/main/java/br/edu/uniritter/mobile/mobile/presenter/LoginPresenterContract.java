@@ -1,9 +1,8 @@
-package br.edu.uniritter.mobile.mobile20222_1.presenter;
+package br.edu.uniritter.mobile.mobile.presenter;
 
 import android.app.Activity;
-import android.content.Context;
 
-import br.edu.uniritter.mobile.mobile20222_1.model.User;
+import br.edu.uniritter.mobile.mobile.model.User;
 
 public class LoginPresenterContract {
     public interface view {

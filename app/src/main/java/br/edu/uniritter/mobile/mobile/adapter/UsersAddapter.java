@@ -1,4 +1,4 @@
-package br.edu.uniritter.mobile.mobile20222_1.adapter;
+package br.edu.uniritter.mobile.mobile.adapter;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import br.edu.uniritter.mobile.mobile20222_1.view.Activity2;
-import br.edu.uniritter.mobile.mobile20222_1.R;
-import br.edu.uniritter.mobile.mobile20222_1.model.User;
+import br.edu.uniritter.mobile.mobile.view.Activity2;
+import br.edu.uniritter.mobile.mobile.R;
+import br.edu.uniritter.mobile.mobile.model.User;
 
 public class UsersAddapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
    private List<User> dados;

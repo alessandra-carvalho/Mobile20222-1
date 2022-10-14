@@ -1,4 +1,4 @@
-package br.edu.uniritter.mobile.mobile20222_1;
+package br.edu.uniritter.mobile.mobile;
 
 import org.junit.Test;
 

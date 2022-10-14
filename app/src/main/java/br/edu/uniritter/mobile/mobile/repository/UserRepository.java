@@ -1,4 +1,4 @@
-package br.edu.uniritter.mobile.mobile20222_1.repository;
+package br.edu.uniritter.mobile.mobile.repository;
 
 import android.content.Context;
 import android.util.Log;
@@ -10,7 +10,6 @@ import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
-import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,7 +18,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.edu.uniritter.mobile.mobile20222_1.model.User;
+import br.edu.uniritter.mobile.mobile.model.User;
 
 public class UserRepository implements Listener<JSONArray>,Response.ErrorListener{
     private final String TAG = "UserRepository";

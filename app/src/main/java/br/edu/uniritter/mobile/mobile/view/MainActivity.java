@@ -1,4 +1,4 @@
-package br.edu.uniritter.mobile.mobile20222_1.view;
+package br.edu.uniritter.mobile.mobile.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -11,14 +11,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import br.edu.uniritter.mobile.mobile20222_1.R;
-import br.edu.uniritter.mobile.mobile20222_1.adapter.UsersAddapter;
-import br.edu.uniritter.mobile.mobile20222_1.model.User;
-import br.edu.uniritter.mobile.mobile20222_1.repository.OnReadyListener;
-import br.edu.uniritter.mobile.mobile20222_1.repository.UserRepository;
+import br.edu.uniritter.mobile.mobile.R;
+import br.edu.uniritter.mobile.mobile.adapter.UsersAddapter;
+import br.edu.uniritter.mobile.mobile.model.User;
+import br.edu.uniritter.mobile.mobile.repository.OnReadyListener;
+import br.edu.uniritter.mobile.mobile.repository.UserRepository;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private final String TAG = "MainActivity";

@@ -1,4 +1,4 @@
-package br.edu.uniritter.mobile.mobile20222_1.repository;
+package br.edu.uniritter.mobile.mobile.repository;
 
 public interface OnReadyListener {
     public void onReady();

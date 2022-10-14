@@ -1,4 +1,4 @@
-package br.edu.uniritter.mobile.mobile20222_1.repository;
+package br.edu.uniritter.mobile.mobile.repository;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

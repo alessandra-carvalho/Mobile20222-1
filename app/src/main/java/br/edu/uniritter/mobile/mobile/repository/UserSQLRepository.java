@@ -1,4 +1,4 @@
-package br.edu.uniritter.mobile.mobile20222_1.repository;
+package br.edu.uniritter.mobile.mobile.repository;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.edu.uniritter.mobile.mobile20222_1.model.User;
+import br.edu.uniritter.mobile.mobile.model.User;
 
 public class UserSQLRepository {
     private final String TAG = "UserSQLRepository";
