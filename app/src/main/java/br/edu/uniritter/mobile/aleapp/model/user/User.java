@@ -3,6 +3,7 @@ package br.edu.uniritter.mobile.aleapp.model.user;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+/*classe nova para user*/
 
 public class User implements Parcelable {
     private int id;
